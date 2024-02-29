@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 320px;
+    height: 500px;
+    background-color: hsl(217, 54%, 11%);
+    margin:auto;
+    margin-top: 20px;
+    padding: 30px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height:500px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    outline-style: solid ;
+    outline-color: hsl(216, 50%, 16%);
+    outline-width: thin;
+    margin: auto;
+    margin-top: 10px;
+    border: 30px 30px;
+    padding: 20px 20px;
+    box-shadow:  hsl(217, 54%, 11%);
+}
+h3{
+    margin: 10px 0px;  
+    display: block;
+    text-align: left;
+    font-weight: 600;
+}
+.card img {
+    width:100%;
+    margin:0;
+    border-radius: 8px;  
+}
+
+.main {
+    color: hsl(228, 45%, 44%);
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    line-height: 20px;
+    
+}
+.time {
+    color: hsl(178, 100%, 50%);
+    margin-right: 60px;
+    text-align: left;
+    display: inline;
+    font-size: 12px;
+    
+}
+.time img{
+    width: 8px;
+    
+}
+.days {
+    color: hsl(215, 51%, 70%);
+    margin-left: 50px;
+    text-align: right;
+    display: inline;
+    font-size: 12px;
+}
+.days img{
+    width: 10px;
+ 
+}
+
+.name {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 12px;
+    margin-right: 0;
+    text-align: right;
+    border-top: 1px solid  hsl(228, 45%, 44%); 
+}
+
+.name img {
+    width:20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.name span {
+    color: hsl(228, 45%, 44%);
+}
+.attribution { 
+    font-size: 11px; 
+    margin-top: 15px;
+    text-align: left;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
